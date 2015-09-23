@@ -21,7 +21,7 @@ import { celsiusToFahrenheit } from 'temperature';
 
 const celsius = 100;
 
-const fahrenheit = celsiusToFahrenheit(celsius);
+const fahrenheit = celsiusToFahrenheit(celsius); // == 212 
 
 // ... do stuff with awesome temperatures!
 ```
