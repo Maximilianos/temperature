@@ -1,0 +1,33 @@
+{
+  "name": "temperature",
+  "version": "1.0.0",
+  "description": "A collection of simple temperature operations",
+  "main": "temperature.js",
+  "scripts": {
+    "transpile": "babel temperature.js --modules umd --out-dir dist",
+    "minify": "uglifyjs dist/temperature.js --compress --screw-ie8 --mangle --output dist/temperature.min.js",
+    "build": "npm run transpile && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Maximilianos@github.com/Maximilianos/temperature.git"
+  },
+  "keywords": [
+    "convert",
+    "conversion",
+    "temperature",
+    "Celsius",
+    "Fahrenheit",
+    "Kelvin"
+  ],
+  "author": "Max GJ Panas <m@maxpanas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maximilianos/temperature/issues"
+  },
+  "homepage": "https://github.com/Maximilianos/temperature#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "uglifyjs": "^2.4.10"
+  }
+}
