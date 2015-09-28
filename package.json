@@ -1,6 +1,6 @@
 {
   "name": "temperature",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of simple temperature operations",
   "main": "dist/temperature.js",
   "scripts": {
