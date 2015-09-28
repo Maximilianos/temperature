@@ -2,7 +2,7 @@
   "name": "temperature",
   "version": "1.0.1",
   "description": "A collection of simple temperature operations",
-  "main": "temperature.js",
+  "main": "dist/temperature.js",
   "scripts": {
     "transpile": "babel temperature.js --modules umd --out-dir dist",
     "minify": "uglifyjs dist/temperature.js --compress --screw-ie8 --mangle --output dist/temperature.min.js",
