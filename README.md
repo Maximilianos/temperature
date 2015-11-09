@@ -16,16 +16,26 @@ npm i temperature
 
 ```javascript
 // import only the functions you need
-import { celsiusToFahrenheit } from 'temperature';
-
+import {celsiusToFahrenheit} from 'temperature';
 
 const celsius = 100;
-
 const fahrenheit = celsiusToFahrenheit(celsius); // == 212 
 
 // ... do stuff with awesome temperatures!
 ```
 
+## Available converters
+
+All the following methods take input of type `number` and
+return output of type `number`
+
+- **celsiusToFahrenheit(celsius)**
+- **celsiusToKelvin(celsius)**
+- **fahrenheitToCelsius(fahrenheit)**
+- **fahrenheitToKelvin(fahrenheit)**
+- **kelvinToCelsius(kelvin)**
+- **kelvinToFahrenheit(kelvin)**
+
 ## License
 
-MIT
+MIT &copy; [Max GJ Panas](maxpanas.com)
