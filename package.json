@@ -8,6 +8,7 @@
     "minify": "uglifyjs dist/temperature.js --compress --screw-ie8 --mangle --output dist/temperature.min.js",
     "build": "npm run transpile && npm run minify"
   },
+  "typings": "./temperature.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://Maximilianos@github.com/Maximilianos/temperature.git"
